@@ -32,7 +32,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL "https://hellothere1321.github.io/anshs.github.io/"
+        run: hugo --minify
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
