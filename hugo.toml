@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/hellothere1321/anshs.github.io'
+baseURL = 'https://hellothere1321.github.io/anshs.github.io/'
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = "PaperMod"
