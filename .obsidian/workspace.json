@@ -11,10 +11,14 @@
             "id": "436c638aba603a65",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/first-post.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "first-post"
             }
           }
         ]
@@ -184,11 +188,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "04561c5d3acbf89a",
+  "active": "436c638aba603a65",
   "lastOpenFiles": [
     "content/posts/first-post.md",
-    "hugo.toml",
     "content/posts/my-new-post.md",
+    "hugo.toml",
     "archetypes/default.md",
     "New Text Document.txt",
     "New Microsoft Access Database.mdb",
