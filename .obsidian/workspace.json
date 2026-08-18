@@ -184,20 +184,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "436c638aba603a65",
+  "active": "04561c5d3acbf89a",
   "lastOpenFiles": [
+    "content/posts/first-post.md",
+    "hugo.toml",
+    "content/posts/my-new-post.md",
+    "archetypes/default.md",
     "New Text Document.txt",
     "New Microsoft Access Database.mdb",
-    "content/posts/first-post.md",
     "public/posts/first-post/index.html",
     "public/posts/first-post",
     "public/index.xml",
     "public/page/1/index.html",
     "public/page/1",
     "public/page",
-    "public/posts/page/1/index.html",
-    "public/posts/page/1",
-    "public/posts/my-new-post/index.html",
-    "content/posts/my-new-post.md"
+    "public/posts/page/1/index.html"
   ]
 }
