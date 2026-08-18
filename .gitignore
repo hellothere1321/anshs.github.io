@@ -1,1 +1,21 @@
+# Hugo generated output
 /public/
+/resources/_gen/
+/.hugo_build.lock
+
+# Local editor and workspace state
+/.obsidian/workspace.json
+/.obsidian/workspace-mobile.json
+/.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
