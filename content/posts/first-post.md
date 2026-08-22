@@ -1,5 +1,5 @@
 +++
-date = '2026-08-21T20:15:00-05:00'
+date = '2026-08-21T20:00:00-05:00'
 draft = false
 title = 'Can a Computer Tell Crowley From Aziraphale?'
 +++
