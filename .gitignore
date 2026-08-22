@@ -19,3 +19,13 @@ desktop.ini
 .env
 .env.*
 !.env.example
+
+# AI assistant workspace files
+/.agents/
+/.codex/
+/projects/**/AGENTS.md
+/projects/**/HANDOFF.md
+/projects/**/.agents/
+/projects/**/.codex/
+/projects/**/.claude/
+/projects/**/.cursor/
