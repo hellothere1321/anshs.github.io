@@ -1,17 +1,36 @@
 +++
-date = '2026-08-11T14:38:26-05:00'
-draft = true
+date = '2026-08-21T20:15:00-05:00'
+draft = false
 title = 'Can a Computer Tell Crowley From Aziraphale?'
 +++
 
 ### What Makes a Character Sound Like Themselves?
-##### ***Warning, Good Omens Spoilers***
+##### ***Warning: Good Omens spoilers***
 
-One of the things that has always interested me about linguistics is how it has differentiated us. In a digital word, it has been increasingly important to understand others beyond the face, and that often hampers communication especially in the case of text, but we still convey emotions through text, and its pretty interesting how that can be personalized to us. 
+One of the things that has always interested me about linguistics is how it differentiates us. Even without seeing or hearing someone, we still manage to communicate personality through text, and it is interesting how much of that can become specific to one person.
 
-Authors, especially those in fiction exploit this to make characters distinct, since specific tones and linguistics styles make us feel like we actually know the characters without ever actually hearing, seeing or talking directly to them. This to me comes down to how i can differentiate characters just by hearing their dialogue, with one of my favorite examples being Good Omens. I've always loved how Good Omens maintained a contrast between Crowley and Aziraphale, with their differing personalities while also showing how they rubbed off on each other. I think the best example of this comes near the end of the book, where (SPOILERS!) they have a body swap, and are pretty spot on in their impressions of each other, at least at first. Generally this being a shocking reveal to me was one of the things that really set me to thinking about this question, since as readers we only have set knowledge on the characters, especially in dialogue, and that the author has to make the conscious decision to make these characters distinct to us.
+Authors, especially in fiction, exploit this to make characters distinct. Specific tones and linguistic styles can make us feel like we know a character without ever actually hearing or seeing them. I started thinking about this through *Good Omens*, especially the contrast between Crowley and Aziraphale. They have very different personalities and ways of speaking, but after knowing each other for thousands of years they have also rubbed off on each other.
 
-This led to my thoughts for a project about how we can classify characters using not a voice but their way of speaking, in some way that can actually be linguistically be defined. The idea is to make a machine learning algorithm that uses these defined linguistics patterns to classify whether the dialogue is Crowley and Aziraphile, and later maybe even learn some cool patterns that come with the characters emotions, different chapters and maybe later the TV show. 
+One of my favorite examples comes near the end of the book when they swap bodies. Their impressions of each other are convincing enough that the reveal actually surprised me. That got me thinking about what the reader has learned about them by that point. We only have the words on the page, so what exactly makes a line feel like something Crowley would say rather than Aziraphale?
 
-#### This blog post is thus going to be about learning how to make an ML model for this use case and then training it.
+That is the question I want to work on for this project: **can I define some of those differences linguistically, and can a computer learn to recognize them too?**
 
+### Starting with the linguistics
+
+I am still very early in this project, so most of what I have been doing so far is reading and trying to work out what I should even measure.
+
+One idea I have been reading about is **keyword analysis**. I originally thought a keyword basically meant an important or common word, but in corpus linguistics it is more specific than that. A word can be considered a keyword when it appears much more or much less often in one text than we would expect when compared with a useful reference text.
+
+That comparison is important. A word appearing five times does not tell me much by itself. If it appears five times in 5,000 words but only ten times in another 100,000 words, suddenly that frequency looks much more unusual. This is where statistical tests such as the chi-square test, sometimes with Yates' correction for a 2x2 table, or Dunning's log-likelihood test can be used to test how surprising that difference actually is.
+
+I am still learning the statistics behind these tests, but I like this idea because it gives me a way to move from something vague like "Crowley sounds more casual" to something I can actually investigate. Maybe Crowley uses certain contractions, discourse markers, words or sentence structures unusually often. Maybe Aziraphale does the same with completely different features. Or maybe some of the differences I think I notice will disappear once I actually count them.
+
+### The computer part
+
+I have also started setting up the coding side, although there is definitely not a finished machine-learning model yet. Right now the useful part is much more basic: deciding how I am going to store the dialogue, label who is speaking, and turn each line into features that a program can count.
+
+Eventually I want to try two slightly different approaches. One model can look at the actual words being used, while another will be more restricted and look at things such as sentence length, punctuation, contractions, pronouns and other stylistic features. If both can tell the characters apart, that would be interesting for different reasons. If the word-based model does much better, it may simply be learning the topics and vocabulary associated with each character rather than their broader style.
+
+For now, though, I am not anywhere near answering the original question. I have mostly ended up with more questions: what should count as a useful stylistic feature, what should the reference text be, how much dialogue do I need, and how do I stop the model from taking shortcuts?
+
+That is probably a better place to start than pretending I already know the answer. Over the next few posts I want to document the process as I learn the linguistics, build the dataset and slowly get the code working.
