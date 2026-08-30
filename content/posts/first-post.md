@@ -15,3 +15,13 @@ This led to my thoughts for a project about how we can classify characters using
 
 #### This blog post is thus going to be about learning how to make an ML model for this use case and then training it.
 
+## Check in:
+
+Ever week I don't finish my project, I will giving a check in of what I've been doing and learning. :
+
+1. I started researching papers on the topics, which can be accessed on the GitHub, the first paper is about stylistics and a project where someone is trying to differentiate Shakespeare characters from stylistic markers.
+2. I've started setting the project's code up but I want to get a little more research done before I start coding anything concrete.
+
+## Next weeks plan:
+
+Finish of this paper and a couple more, and start getting some data and a concept of how the project is going to work so I can start coding, and then checking back in.
