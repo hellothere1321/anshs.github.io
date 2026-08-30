@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Paper summaries/Computers, language and characterization, An analysis of six characters in Romeo and Juliet note writing.md",
+                "file": "content/posts/my-new-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computers, language and characterization, An analysis of six characters in Romeo and Juliet note writing"
+              "title": "my-new-post"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Notes/Hapax legomena.md",
+                "file": "Notes/Hapax legomena.md",
                 "mode": "preview",
                 "source": false
               },
@@ -35,7 +35,8 @@
               "title": "Hapax legomena"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,15 +203,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "436c638aba603a65",
+  "active": "04561c5d3acbf89a",
   "lastOpenFiles": [
     "content/posts/my-new-post.md",
+    "Untitled.md",
     "content/posts/first-post.md",
-    "content/Notes/Hapax legomena.md",
-    "content/Paper summaries/Computers, language and characterization, An analysis of six characters in Romeo and Juliet note writing.md",
-    "content/Notes/Chi Square Test with Yate's correction.md",
-    "content/Paper summaries",
-    "content/Notes",
+    "Paper summaries/Computers, language and characterization, An analysis of six characters in Romeo and Juliet note writing.md",
+    "Notes/Hapax legomena.md",
+    "Notes/Chi Square Test with Yate's correction.md",
+    "Paper summaries",
+    "Notes",
     "content/Untitled.md",
     "content/posts/Untitled.md",
     "projects/character-voice-classifier/AGENTS.md",

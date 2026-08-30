@@ -1,6 +1,6 @@
 +++
 date = '2026-08-11T14:38:26-05:00'
-draft = true
+draft = false
 title = 'Can a Computer Tell Crowley From Aziraphale?'
 +++
 
