@@ -39,4 +39,41 @@ After this point he actually goes over all their characters and their key words 
 
 Looking at Romeo we see that he has beauty, love, and body parts in his positive keywords. The author analyzed this as a concern for the physical, given that is a lot of what Romeo does do.
 
-On the other hand Juliet's most positive keyword is "if" and another big key word is "yet" showing Juliet's uncertainty throughout the play, and 
+On the other hand Juliet's most positive keyword is "if" and another big key word is "yet" showing Juliet's uncertainty throughout the play.
+
+Capulet has the keyword "go" showing how he commands the other characters a lot and displaying that aspect of his 
+
+Overall there are a couple more examples of how interpretation of other characters can go but I think that's more to internalize and less to write down.
+
+
+***Pronominal patterns in the keyword:*** (to do with pronouns)
+
+| Person | Juliet | Romeo | Capulet | Nurse | Mercutio | Friar L. |
+|---|---|---|---|---|---|---|
+|  | 1st (2nd) | 1st (2nd) | 2nd (1st) | 3rd (2nd) | 3rd | 2nd (3rd) |
+| 1st person singular/plural | S | S | P | - | - | - |
+| Thou/you | T | T | Y | Y | - | T |
+
+You see that Juliet and Romeo being the leads have more first person pronouns, but Juliet uses the word "I" more (table not listed), than Romeo who instead uses the word "me", which shows how Juliet has to carry the burden of her own soul while Romeo is more conscious of his role as a lover and how his circumstances effect him. 
+
+The nurse has a lot of he's but it is localized to when she is reacting to his death which displays how some stuff doesn't show patterns.
+
+Also in terms of thou vs you, you is more aloof so the main characters being very emotional generally instead use thou. 
+
+This paper as a whole was a breakthrough in making empirical way of establishing lexical and grammatical patterns using the new tagging system analyzing the dialogue for keywords.
+
+***Paper limitations:***
+
+As a whole it displays statistical deviation but not deviation from absolute rules since that is pretty infrequent with writing, also it separates contractions and doesn't lemmatize the word forms thus loves and love would have been separate given that they may have differences in meaning.
+
+***Future:***
+The possibilities for future research are numerous. One area is to consider is
+relationships between keywords. Scott (1999) has developed, for example, the
+notion of ‘key-keywords’ (keywords that are keywords in a number of different
+files, i.e. they are generally key across the body of data), and ‘associates’
+(keywords that have a statistical association with other keywords). I was not able
+to pursue these notions in my data, on account of the small number of words in
+each character file, but this clearly would be an avenue to pursue with larger
+quantities of data. Another obvious area for development is to apply keywords
+analysis to other kinds of data, such as particular registers, dialects, media,
+documents or writings. (Culpeper 28)
