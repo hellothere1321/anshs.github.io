@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/second-post.md",
+                "file": "content/posts/my-new-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "second-post"
+              "title": "my-new-post"
             }
           }
         ]
@@ -190,8 +190,8 @@
   },
   "active": "80490ca05935f82b",
   "lastOpenFiles": [
-    "content/posts/my-new-post.md",
     "content/posts/first-post.md",
+    "content/posts/my-new-post.md",
     "content/posts/second-post.md",
     "archetypes/default.md",
     "Paper summaries/Activity types and characterisation in dramatic discourse.md",

@@ -1,8 +1,12 @@
 +++
 date = '2026-08-08T02:07:18-05:00'
 draft = false
-title = 'Post 2'
+title = 'How do you even analyze a pdf'
 +++
+
+### What Makes a Character Sound Like Themselves?
+### Part 2: How do you even analyze a pdf
+##### ***Warning, Good Omens Spoilers***
 
 Last time I decided on the question I wanted to answer: what differentiates the dynamic duo in Good Omens. Since then I've been working on looking more into how the could be defined linguistically, with their speech and how they live in situations within prose. More importantly, I also looked deeper into how I could turn all this into something I could measure.
 
