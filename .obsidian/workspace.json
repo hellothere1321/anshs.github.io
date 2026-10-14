@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/my-new-post.md",
+                "file": "content/posts/Third-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "my-new-post"
+              "title": "Third-post"
             }
           }
         ]
@@ -190,9 +190,12 @@
   },
   "active": "80490ca05935f82b",
   "lastOpenFiles": [
-    "content/posts/first-post.md",
-    "content/posts/my-new-post.md",
     "content/posts/second-post.md",
+    "content/posts/Third-post.md",
+    "content/posts/my-new-post.md",
+    "content/posts/first-post.md",
+    "public/posts/second-post/index.html",
+    "public/posts/second-post",
     "archetypes/default.md",
     "Paper summaries/Activity types and characterisation in dramatic discourse.md",
     "projects/Inital classifier/Book.txt",
@@ -208,8 +211,6 @@
     "Notes/Hapax legomena.md",
     "Notes/Activity types.md",
     "Untitled.md",
-    "Paper summaries",
-    "Notes",
     "content/Untitled.md",
     "projects/character-voice-classifier/AGENTS.md",
     "projects/character-voice-classifier/HANDOFF.md",

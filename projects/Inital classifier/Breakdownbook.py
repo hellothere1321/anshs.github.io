@@ -43,7 +43,7 @@ for i, match in enumerate(matches):
     before_con = " ".join(before_con)
     after_con = " ".join(after_con)
 
-    speaker = find_speaker(before, after)
+    speaker = find_speaker(before_con, after_con)
 
     print(speaker + ": " + before_con + " " + match.group() + " " + after_con)
     print()
